@@ -18,8 +18,10 @@ const Hero = () => {
 
       {/* Content */}
       <div className=" text-center relative z-1 text-white h-full flex items-center justify-center">
-        <div className="border mx-[600px]">
-          <h1 className="text-5xl font-bold border border-gray-100 px-6 py-2 text-blue-300">CENTRUMSCIEN</h1>
+        <div className="border max-w-[600px] w-[80%]  bg-white/20 rounded-lg shadow-lg"> 
+          <h1 className="sm:text-5xl font-bold border-none border-gray-100 px-6 py-2 text-blue-300">
+            CENTRUMSCIEN
+          </h1>
           <p className="text-sm p-3">
             At CentrumScien, we are dedicated to driving innovation and
             excellence in the tech industry. Our mission is to create
