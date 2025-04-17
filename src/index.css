@@ -36,3 +36,26 @@
     scroll-behavior: smooth;
   }
 }
+
+
+@keyframes gradientBlur {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(180deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.animate-gradientBlur {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: gradientBlur 10s infinite linear;
+  filter: blur(100px);
+  opacity: 0.7;
+}
